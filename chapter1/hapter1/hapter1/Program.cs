@@ -1,102 +1,57 @@
 ﻿using System;
 
-class Program
+namespace hapter1
 {
-    // この中にプログラムを書くと実行される
-    static void Main(string[] args)
+    class Program
     {
-        /* *** Console.Write, Console.WriteLine を呼ぶと文字を出力できる *** */
-        Console.Write("Console.Write を呼んだ");
-        Console.WriteLine("Console.WriteLine を呼んだ");
-        Console.WriteLine("Console.WriteLine をもう一度呼んだ");
+        //F5を押すか上にある再生ボタンでプログラミングコードを実行することが可能です
+        //この中にプログラミングコードを書くと使うことが可能になります
+        static void Main(string[] args)
+        {
+            //Console.WriteLine().Console.Write()この2つはコンソールに文字を映すことができるコードです
+            //この２つの違いは文字を改行できるかできないかの違いです(Console.WriteLine()の方が使う頻度は高いです(体感))
+            //プログラミングの最後書いている（；）これはセミコロンと言い一つのコードを書き終えた時に書かれる物です
+            //(主はセミコロンをよく忘れています（直さないとな～）)
+            Console.Write("こんばんは!");
+            Console.Write("こんばんは!");
+            Console.WriteLine("こんばんは！");
+            Console.WriteLine("こんばんは！");
 
-        // 以下はプログラムを一旦停止させるためのものです。これらをコメントアウトすると、プログラムはすぐに終了します（実行結果が確認できなくなる）。
-        Console.Write("Enter キーを押すと次に進みます。Ctrl + C で実行を中止できます...");
-        Console.ReadLine();
+            Console.WriteLine("Enter キーを押すと次に進みます。Ctrl + C で実行を中止できます...");
+            Console.ReadLine();
 
-        // "//" を先頭（左端）に書くとその行は「コメント」になる。コメント行は実行されない。
+            //ここからはプログラミングの基礎の変数をやって行きます
+            //変数とは、
+            //数や文字などを保管するものいわば箱です
+            //この箱はどこかで呼ぶ(開封)ことをしない限りは使われないです
+            //変数を使う使うには初めに宣言(入れる箱を用意)しなければ使えません
+        　　//変数の書き方は基本的に
+          //変数名　その変数(箱)の名前；//このようにして宣言します
+          
+            int a;//intは(整数)を保管することができます
+            
+            string b;//stringは(文字)を保管することが可能です
 
-        /* *** 「変数」を「宣言」し、「値」を「代入」して出力する *** */
-        int money;  // int は「整数」
-        string name;    // string は「文字列」
+            //宣言した変数(箱)のなかに整数や文字を入れて行きましょう
 
-        money = 5000;
-        name = "ああああ";  // 「"」（ダブルクォーテーションと呼ぶ。Shift + 2 で入力できる）で囲むとそれは「文字列」として扱われる
+            a = 200;
+            b ="こんばんは！"; //文字を入れる時は（”）ダブルコーテーションを使いましょう(使わないとエラーが出ます)
 
-        Console.WriteLine(money);
-        Console.WriteLine(name);
+            //宣言した変数(箱)を呼びましょう
+            //宣言した変数を使う方法は()の中に変数(箱)の名前を書くだけです
+            Console.WriteLine(a);
+            Console.WriteLine(b);
 
-        Console.Write("Enter キーを押すと次に進みます。Ctrl + C で実行を中止できます...");
-        Console.ReadLine();
+            Console.WriteLine("Enter キーを押すと次に進進むことができてCtrl + C で実行をやめることができます");
+            Console.ReadLine();
+            //ここから下は今やったことの復習などに使用してください
+            //次回は計算をやろうかな(予定)
 
-        /* *** 計算し、結果を出力する *** */
-        int answer;
 
-        answer = 1 + 2; // 足し算
-        Console.WriteLine(answer);
 
-        answer = 8 - 5; // 引き算
-        Console.WriteLine(answer);
 
-        answer = 3 * 5; // かけ算。記号は「*」（アスタリスク）である。
-        Console.WriteLine(answer);
 
-        answer = 63 / 9;    // 割り算。記号は「/」（スラッシュ）である。
-        Console.WriteLine(answer);
 
-        answer = 10 % 3;    // 剰余算
-        Console.WriteLine(answer);
-
-        Console.Write("Enter キーを押すと次に進みます。Ctrl + C で実行を中止できます...");
-        Console.ReadLine();
-
-        /* *** 文字列と文字列を + で足すと、文字列を連結することができる *** */
-        string a;
-        a = "あいうえお";
-        string b = "かきくけこ"; // 宣言と代入をまとめて1行で書くこともできる。これを「初期化」と言う。
-        string c = a + b;
-        Console.WriteLine(c);
-
-        Console.Write("Enter キーを押すと次に進みます。Ctrl + C で実行を中止できます...");
-        Console.ReadLine();
-
-        /* *** 練習 1 *** 
-         * 文字列型の変数 aStr と整数型の変数 aInt を宣言し、それぞれに「文字列として」「整数として」1 と 2 を足した結果を代入せよ。
-         * 結果を代入したら、それを出力せよ。
-         * *** */
-        string aStr;
-        int aInt;
-
-        // 中略
-
-        Console.Write("Enter キーを押すと次に進みます。Ctrl + C で実行を中止できます...");
-        Console.ReadLine();
-
-        /* *** 練習 2 *** 
-         * 10 割る 3 を計算し、出力せよ。
-         * *** */
-
-        // 中略
-
-        Console.Write("Enter キーを押すと次に進みます。Ctrl + C で実行を中止できます...");
-        Console.ReadLine();
-
-        /* *** 特別な書き方 *** */
-        int x = 0;  // 整数型の変数 x を宣言し、0 で初期化している
-
-        x = x + 1;  // x（つまり 0）に 1 を足して、それを x に代入している。普通の数学とは = の使い方が違うことに注意すること。
-        Console.WriteLine(x);
-
-        x++;    // x = x + 1 はこのように書くこともできる
-        Console.WriteLine(x);
-
-        x += 1; // x = x + 1 はこのように書くこともできる
-        Console.WriteLine(x);
-
-        x += 10;    // ということは x = x + 10 はこのように書ける
-        Console.WriteLine(x);
-
-        Console.Write("Enter キーを押してください...");
-        Console.ReadLine();
+        }
     }
 }
