@@ -37,8 +37,8 @@ namespace Chapter2
             //***練習1***
             //変数名answerを宣言して式の答えが20になる式を作りましょう
             //変数とコンソールに出す処理は下の空白の欄に書いてください
-
-
+            int answer = 15 + 5;
+            Console.WriteLine(answer);
             Console.WriteLine("Enter キーを押すと次に進むことができてCtrl + C で実行をやめることができます");
             Console.ReadLine();
 
@@ -54,7 +54,7 @@ namespace Chapter2
             //空白の行にコンソールに出すコードを書いてください
             int y = 100;
             string Day = "日目";
-            
+            Console.WriteLine(y + Day);
             Console.WriteLine("Enter キーを押すと次に進むことができてCtrl + C で実行をやめることができます");
             Console.ReadLine();
             //特殊な書き方
