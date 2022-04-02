@@ -1,0 +1,7 @@
+C:\Users\爆走丸\ドキュメント\C#raining\Chapter1\Chapter1\bin\Debug\Chapter1.exe.config
+C:\Users\爆走丸\ドキュメント\C#raining\Chapter1\Chapter1\bin\Debug\Chapter1.exe
+C:\Users\爆走丸\ドキュメント\C#raining\Chapter1\Chapter1\bin\Debug\Chapter1.pdb
+C:\Users\爆走丸\ドキュメント\C#raining\Chapter1\Chapter1\obj\Debug\Chapter1.csproj.AssemblyReference.cache
+C:\Users\爆走丸\ドキュメント\C#raining\Chapter1\Chapter1\obj\Debug\Chapter1.csproj.CoreCompileInputs.cache
+C:\Users\爆走丸\ドキュメント\C#raining\Chapter1\Chapter1\obj\Debug\Chapter1.exe
+C:\Users\爆走丸\ドキュメント\C#raining\Chapter1\Chapter1\obj\Debug\Chapter1.pdb
