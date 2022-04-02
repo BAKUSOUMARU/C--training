@@ -1,6 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace hapter1
+namespace Chapter1
 {
     class Program
     {
@@ -25,22 +29,33 @@ namespace hapter1
             //数や文字などを保管するものいわば箱です
             //この箱はどこかで呼ぶ(開封)ことをしない限りは使われないです
             //変数を使う使うには初めに宣言(入れる箱を用意)しなければ使えません
-        　　//変数の書き方は基本的に
-          //変数名　その変数(箱)の名前；//このようにして宣言します
-          
+            //変数の書き方は基本的に
+            //変数名　その変数(箱)の名前；//このようにして宣言します
+
             int a;//intは(整数)を保管することができます
-            
+
             string b;//stringは(文字)を保管することが可能です
 
             //宣言した変数(箱)のなかに整数や文字を入れて行きましょう
 
             a = 200;
-            b ="こんばんは！"; //文字を入れる時は（”）ダブルコーテーションを使いましょう(使わないとエラーが出ます)
+            b = "こんばんは！"; //文字を入れる時は（”）ダブルコーテーションを使いましょう(使わないとエラーが出ます)
 
             //宣言した変数(箱)を呼びましょう
             //宣言した変数を使う方法は()の中に変数(箱)の名前を書くだけです
             Console.WriteLine(a);
             Console.WriteLine(b);
+
+            Console.WriteLine("Enter キーを押すと次に進進むことができてCtrl + C で実行をやめることができます");
+            Console.ReadLine();
+
+            //ちなみに変数はこう書いた方がスマートで見やすいコードになります
+            //基本的に自分はこう書いてます
+            int c = 500;
+            string d = "おはよう";
+
+            Console.WriteLine(c);
+            Console.WriteLine(d);
 
             Console.WriteLine("Enter キーを押すと次に進進むことができてCtrl + C で実行をやめることができます");
             Console.ReadLine();
