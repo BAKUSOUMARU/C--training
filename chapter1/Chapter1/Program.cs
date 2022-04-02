@@ -21,7 +21,7 @@ namespace Chapter1
             Console.WriteLine("こんばんは！");
             Console.WriteLine("こんばんは！");
 
-            Console.WriteLine("Enter キーを押すと次に進みます。Ctrl + C で実行を中止できます...");
+            Console.WriteLine("Enter キーを押すと次に進むことができてCtrl + C で実行をやめることができます");
             Console.ReadLine();
 
             //ここからはプログラミングの基礎の変数をやって行きます
@@ -46,7 +46,7 @@ namespace Chapter1
             Console.WriteLine(a);
             Console.WriteLine(b);
 
-            Console.WriteLine("Enter キーを押すと次に進進むことができてCtrl + C で実行をやめることができます");
+            Console.WriteLine("Enter キーを押すと次に進むことができてCtrl + C で実行をやめることができます");
             Console.ReadLine();
 
             //ちなみに変数はこういう書き方もできます
@@ -57,7 +57,7 @@ namespace Chapter1
             Console.WriteLine(c);
             Console.WriteLine(d);
 
-            Console.WriteLine("Enter キーを押すと次に進進むことができてCtrl + C で実行をやめることができます");
+            Console.WriteLine("Enter キーを押すと次に進むことができてCtrl + C で実行をやめることができます");
             Console.ReadLine();
             //ここから下は今やったことの復習などに使用してください
             //次回は計算をやろうかな(予定)
