@@ -5,3 +5,10 @@ C:\Users\爆走丸\ドキュメント\C#raining\Chapter2\Chapter2\obj\Debug\Chap
 C:\Users\爆走丸\ドキュメント\C#raining\Chapter2\Chapter2\obj\Debug\Chapter2.csproj.CoreCompileInputs.cache
 C:\Users\爆走丸\ドキュメント\C#raining\Chapter2\Chapter2\obj\Debug\Chapter2.exe
 C:\Users\爆走丸\ドキュメント\C#raining\Chapter2\Chapter2\obj\Debug\Chapter2.pdb
+C:\Users\bakus\ドキュメント\C#Training\Chapter2\Chapter2\bin\Debug\Chapter2.exe.config
+C:\Users\bakus\ドキュメント\C#Training\Chapter2\Chapter2\bin\Debug\Chapter2.exe
+C:\Users\bakus\ドキュメント\C#Training\Chapter2\Chapter2\bin\Debug\Chapter2.pdb
+C:\Users\bakus\ドキュメント\C#Training\Chapter2\Chapter2\obj\Debug\Chapter2.csproj.AssemblyReference.cache
+C:\Users\bakus\ドキュメント\C#Training\Chapter2\Chapter2\obj\Debug\Chapter2.csproj.CoreCompileInputs.cache
+C:\Users\bakus\ドキュメント\C#Training\Chapter2\Chapter2\obj\Debug\Chapter2.exe
+C:\Users\bakus\ドキュメント\C#Training\Chapter2\Chapter2\obj\Debug\Chapter2.pdb
